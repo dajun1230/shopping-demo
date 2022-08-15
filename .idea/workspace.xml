@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86bce907-1526-4868-97ed-766cdb8471c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shopping-java/common-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-java/common-service/src/main/java/com/ycj/common/utils/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-java/feign-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-java/feign-api/src/main/java/com/ycj/feign/clients/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/good-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/good-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/src/main/java/com/ycj/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/user-service/src/main/java/com/ycj/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/src/main/java/com/ycj/user/pojo/ResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/user-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/target/classes/com/ycj/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/user-service/target/classes/com/ycj/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/target/classes/com/ycj/user/pojo/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-java/user-service/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-java/user-service/target/classes/mapper/UserMapper.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../dependency/apache-maven-3.8.1/maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../dependency/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../dependency/apache-maven-3.8.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DOT1vHML69U0c4hlcA9RGenBaK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86bce907-1526-4868-97ed-766cdb8471c0" name="Default Changelist" comment="" />
+      <created>1660568919267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660568919267</updated>
+      <workItem from="1660568920533" duration="3000" />
+    </task>
+    <servers />
+  </component>
+</project>

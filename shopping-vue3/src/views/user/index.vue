@@ -12,13 +12,15 @@
       :pagination="pagination"
       :bordered="false"
     />
+    <AddModal :showModal="showModal" @onCloseModal="onCloseModal" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { h } from "vue";
+import { h, ref } from "vue";
 import { NSpace, NButton, NDataTable } from 'naive-ui';
 import type { DataTableColumns } from 'naive-ui';
+import AddModal from './add-model.vue';
 
 type User = {
   id: number;
@@ -28,6 +30,8 @@ type User = {
   phone: string;
   email: string;
 }
+
+const showModal = ref(true);
 
 const data: User[] = [
   { id: 1, username: 'John Brown', age: 32, sex: '男', phone: '18122342535', email: '11233@google.com' },
@@ -64,13 +68,24 @@ const columns: DataTableColumns<User> = [
     title: '操作',
     key: 'action',
     render: () => {
-      return h(NButton, { text: '删除'});
+      return h(NButton, {
+              color: "red",
+              strong: true,
+              tertiary: true,
+              size: "small",
+              onClick: () => {},
+            },
+            { default: "删除"});
     }
   }
 ];
 const pagination = {
   pageSize: 10
 };
+
+const onCloseModal = () => {
+  showModal.value = false;
+}
 
 </script>
 

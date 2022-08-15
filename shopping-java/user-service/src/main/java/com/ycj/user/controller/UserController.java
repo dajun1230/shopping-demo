@@ -1,6 +1,6 @@
 package com.ycj.user.controller;
 
-import com.ycj.user.pojo.ResponseResult;
+import com.ycj.common.utils.ResponseResult;
 import com.ycj.user.pojo.User;
 import com.ycj.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +13,8 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/query/{id}")
-    public ResponseResult getUser(@PathVariable("id") String id) {
+    @GetMapping("/query")
+    public ResponseResult getUser(@RequestParam("id") String id) {
         User user = userService.queryUserById(id);
         return new ResponseResult(200, "ok", user);
     }
